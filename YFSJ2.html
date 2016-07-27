@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+    .wrap{
+    	width: 80%;
+    	background-color: red;
+    	margin: 10% auto;
+    	display: flex;
+    	flex-direction: row;
+    	flex-wrap: wrap;
+
+
+    }
+    .jrtt{
+    	width: 30%;
+
+    	position: relative;
+    	
+    }    
+
+    .head img{
+    	width: 100%;
+    }
+    .jrtt a {
+            text-decoration: none;
+            color: black;
+    }
+    
+    .head{
+    	width: 100%;
+  
+    
+    	
+    }
+    .head a{
+    	position: absolute;
+    	display: block;
+    	width: 100%;
+    	height: 85%;
+    	background-color: rgba(255,255,255,0);
+    	top: 0;
+    	left: 0;
+    	display: flex;
+    	flex-flow: column wrap;
+    	justify-content: center;
+    	align-items: center;
+    	visibility: hidden;
+
+    }
+    .bottom a{
+
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    }
+    .wrap .jrtt:hover .head a{
+    	visibility: visible;
+    	background-color: rgba(0,0,0,0.4);
+    }
+    .wrap .jrtt:hover .bottom a{
+    	color: white;
+    }
+    .wrap div:nth-child(3n-1){
+    	margin: 0 5%;
+    }
+    @media screen and (max-width: 800px) {
+    	.wrap .jrtt{
+    		width: 45%;
+    	}
+    	.wrap div:nth-child(3n-1){
+    	margin: 0 ;
+    }
+       .wrap div:nth-child(n+1){
+       	margin-right: 5%;
+       }
+      
+    }
+	</style>
+</head>
+<body>
+	<div class="wrap">		
+		<div class="jrtt">
+			<div class="head">
+				<img src="jrtt.png" alt="">
+				<a href=""><p>今日头条</p><p>今天就看今日头条</p></a>
+			</div>
+			<div class="bottom">
+				<a href="">今天就看今日头条</a>
+			</div>
+		</div>
+
+		<div class="jrtt">
+			<div class="head">
+				<img src="jrtt.png" alt="">
+				<a href=""><p>今日头条</p><p>今天就看今日头条</p></a>
+			</div>
+			<div class="bottom">
+				<a href="">今天就看今日头条</a>
+			</div>
+		</div>
+
+		<div class="jrtt">
+			<div class="head">
+				<img src="jrtt.png" alt="">
+				<a href=""><p>今日头条</p><p>今天就看今日头条</p></a>
+			</div>
+			<div class="bottom">
+				<a href="">今天就看今日头条</a>
+			</div>
+		</div>
+
+		<div class="jrtt">
+			<div class="head">
+				<img src="jrtt.png" alt="">
+				<a href=""><p>今日头条</p><p>今天就看今日头条</p></a>
+			</div>
+			<div class="bottom">
+				<a href="">今天就看今日头条</a>
+			</div>
+		</div>
+		<div class="jrtt">
+			<div class="head">
+				<img src="jrtt.png" alt="">
+				<a href=""><p>今日头条</p><p>今天就看今日头条</p></a>
+			</div>
+			<div class="bottom">
+				<a href="">今天就看今日头条</a>
+			</div>
+		</div>
+		<div class="jrtt">
+			<div class="head">
+				<img src="jrtt.png" alt="">
+				<a href=""><p>今日头条</p><p>今天就看今日头条</p></a>
+			</div>
+			<div class="bottom">
+				<a href="">今天就看今日头条</a>
+			</div>
+		</div>
+		<div class="jrtt">
+			<div class="head">
+				<img src="jrtt.png" alt="">
+				<a href=""><p>今日头条</p><p>今天就看今日头条</p></a>
+			</div>
+			<div class="bottom">
+				<a href="">今天就看今日头条</a>
+			</div>
+		</div>
+		<div class="jrtt">
+			<div class="head">
+				<img src="jrtt.png" alt="">
+				<a href=""><p>今日头条</p><p>今天就看今日头条</p></a>
+			</div>
+			<div class="bottom">
+				<a href="">今天就看今日头条</a>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
